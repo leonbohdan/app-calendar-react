@@ -1,12 +1,19 @@
 import React from 'react';
 import './App.scss';
+import { Header } from './components/Header';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <>
+      <Header />
+      <div class="container">
+        <div>
+          <h1 class="title">Hello World</h1>
+          <p class="subtitle">
+            My first website with <strong>Bootstrap</strong>!
+          </p>
+        </div>
+      </div>
+    </>
   );
 }
-
-export default App;
