@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/app-calendar-react/static/css/main.5f361e03.chunk.css",
-    "main.js": "/app-calendar-react/static/js/main.0c4d0fe1.chunk.js",
-    "main.js.map": "/app-calendar-react/static/js/main.0c4d0fe1.chunk.js.map",
+    "main.css": "/app-calendar-react/static/css/main.cf593fb0.chunk.css",
+    "main.js": "/app-calendar-react/static/js/main.53c99f0b.chunk.js",
+    "main.js.map": "/app-calendar-react/static/js/main.53c99f0b.chunk.js.map",
     "runtime-main.js": "/app-calendar-react/static/js/runtime-main.d5d1c486.js",
     "runtime-main.js.map": "/app-calendar-react/static/js/runtime-main.d5d1c486.js.map",
-    "static/js/2.e1232262.chunk.js": "/app-calendar-react/static/js/2.e1232262.chunk.js",
-    "static/js/2.e1232262.chunk.js.map": "/app-calendar-react/static/js/2.e1232262.chunk.js.map",
+    "static/js/2.3b603e42.chunk.js": "/app-calendar-react/static/js/2.3b603e42.chunk.js",
+    "static/js/2.3b603e42.chunk.js.map": "/app-calendar-react/static/js/2.3b603e42.chunk.js.map",
     "index.html": "/app-calendar-react/index.html",
-    "precache-manifest.d2e3468c473b58c0e231d0f892bf75ea.js": "/app-calendar-react/precache-manifest.d2e3468c473b58c0e231d0f892bf75ea.js",
+    "precache-manifest.71fbf6f8edefbc6658968f3e0d30e56b.js": "/app-calendar-react/precache-manifest.71fbf6f8edefbc6658968f3e0d30e56b.js",
     "service-worker.js": "/app-calendar-react/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/app-calendar-react/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.e1232262.chunk.js.LICENSE.txt": "/app-calendar-react/static/js/2.e1232262.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/app-calendar-react/static/media/logo.5d5d9eef.svg"
+    "static/css/main.cf593fb0.chunk.css.map": "/app-calendar-react/static/css/main.cf593fb0.chunk.css.map",
+    "static/js/2.3b603e42.chunk.js.LICENSE.txt": "/app-calendar-react/static/js/2.3b603e42.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d5d1c486.js",
-    "static/js/2.e1232262.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.0c4d0fe1.chunk.js"
+    "static/js/2.3b603e42.chunk.js",
+    "static/css/main.cf593fb0.chunk.css",
+    "static/js/main.53c99f0b.chunk.js"
   ]
 }

@@ -1,0 +1,1 @@
+{"version":3,"sources":["Header.scss"],"names":[],"mappings":"AAAA,QACE,wBAAyB,CAC1B,WAGC,wBAAyB","file":"main.cf593fb0.chunk.css","sourcesContent":[".Header {\n  background-color: #84a9ac;\n}\n\n.container {\n  background-color: #e4e3e3;\n}\n"]}
