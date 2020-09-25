@@ -1,12 +1,19 @@
 import React from 'react';
 import './App.scss';
+import { Header } from './components/Header';
+import { Calendar } from './components/Calendar';
+import { Promo } from './components/Promo';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <>
+      <Header />
+      <div class="main">
+        <div className="container">
+          <Promo />
+          <Calendar />
+        </div>
+      </div>
+    </>
   );
 }
-
-export default App;
