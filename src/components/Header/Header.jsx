@@ -1,33 +1,36 @@
 import React from 'react';
 import './Header.scss';
+import logo from '../../images/Logo_original_RGB.png';
+import { Link, NavLink } from 'react-router-dom'; 
+
 
 export const Header = () => {
   return (
     <div class="Header">
-      <div class="container px-5">
-        <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand" href="#">
+      <div class="Header__container container-fluid">
+        <nav class="navbar navbar-light">
+          <Link className="navbar-brand" to="/">
             <img
-              src="./images/Logo_original_RGB.png"
+              src={logo}
               width="165"
               height="50"
               alt="WeRdevs"
               title="Home"
             />
-          </a>
+          </Link>
 
           <div class="" id="">
             <ul class="nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#" title="Home">
-                  Home<span class="sr-only">(current)</span>
-                </a>
+              <li class="nav-item">
+                <NavLink className="nav-link" to="/" exact title="Home">
+                  Home
+                </NavLink>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#" title="About Us">
+                <NavLink className="nav-link" to="/about" title="About Us">
                   About Us
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>

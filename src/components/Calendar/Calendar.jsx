@@ -3,6 +3,8 @@ import './Calendar.scss';
 
 export const Calendar = () => {
   return (
-    <h1>Calendar</h1>
+    <div className="Calendar">
+      <h1>Calendar</h1>
+    </div>
   );
 }
