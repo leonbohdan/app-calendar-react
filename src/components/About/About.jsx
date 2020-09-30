@@ -4,7 +4,7 @@ import './About.scss';
 export const About = () => {
   return (
     <div className="About">
-      <div className="About__container container-fluid">
+      <div className="About__container container">
         <h1 className="About__heading">Lorem ipsum creation timelines</h1>
         <p className="About__paragraph">
           So how did the classical Latin become so incoherent? According to
@@ -12,7 +12,6 @@ export const About = () => {
           Cicero's De Finibus in order to provide placeholder text to mockup
           various fonts for a type specimen book.
         </p>
-        <br />
 
         <p className="About__paragraph">
           It's difficult to find examples of lorem ipsum in use before Letraset
@@ -22,7 +21,6 @@ export const About = () => {
           passage, but the popularity of Cicero in the 15th century supports the
           theory that the filler text has been used for centuries.
         </p>
-        <br />
 
         <p className="About__paragraph">
           And anyways, as Cecil Adams reasoned, “[Do you really] think graphic
@@ -30,7 +28,6 @@ export const About = () => {
           Perhaps. But it seems reasonable to imagine that there was a version
           in use far before the age of Letraset.
         </p>
-        <br />
 
         <p className="About__paragraph">
           McClintock wrote to Before & After to explain his discovery;

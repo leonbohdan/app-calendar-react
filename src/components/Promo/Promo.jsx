@@ -6,7 +6,7 @@ import promoImg from '../../images/Artboard.jpg';
 export const Promo = () => {
   return (
     <>
-      <div className="promo d-flex container-fluid">
+      <div className="promo d-flex">
         <div className="promo__left">
           {/* <img className="img" src={promoImg} alt="Artboard" /> */}
           <h1 className="promo__title">
@@ -20,7 +20,7 @@ export const Promo = () => {
           </p>
         </div>
 
-        <div class="">
+        <div class="promo__calendar">
           <Calendar />
         </div>
       </div>

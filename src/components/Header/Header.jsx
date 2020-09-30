@@ -6,14 +6,14 @@ import { Link, NavLink } from 'react-router-dom';
 
 export const Header = () => {
   return (
-    <div class="Header">
-      <div class="Header__container container-fluid">
-        <nav class="navbar navbar-light">
+    <div className="Header">
+      <div className="Header__container container-fluid">
+        <nav className="navbar navbar-light">
           <Link className="navbar-brand" to="/">
             <img
               src={logo}
-              width="165"
-              height="50"
+              width="145"
+              height="40"
               alt="WeRdevs"
               title="Home"
             />
