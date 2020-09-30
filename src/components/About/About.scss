@@ -1,0 +1,27 @@
+.About {
+  height: 100%;
+  max-width: 2060px;
+
+  &__container {
+    // padding: 0 110px;
+  }
+
+  &__heading {
+    text-align: left;
+    font: normal normal bold 34px/40px Rubik;
+    letter-spacing: -0.68px;
+    color: #3D3D3D;
+    margin-bottom: 30px;
+  }
+
+  &__paragraph {
+    text-align: left;
+    font: normal normal 300 20px/32px Rubik;
+    letter-spacing: 0.4px;
+    color: #3D3D3D;
+  }
+}
+
+.container-fluid {
+  // max-width: 1500px;
+}
