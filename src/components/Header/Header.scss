@@ -33,10 +33,15 @@
   // font: normal normal medium 28px/30px Rubik;
 
   font-size: 28px;
-  font-weight: medium;
+  font: normal normal 500 28px/30px Rubik;
   letter-spacing: 0.56px;
   color: #3D3D3D;
   text-transform: uppercase;
+  transition: color 0.4s ease-in-out;
+
+  &:hover {
+    color:#FDD000;
+  }
 }
 
 .nav-item {
