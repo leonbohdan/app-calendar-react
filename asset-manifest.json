@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/app-calendar-react/static/css/main.5c688381.chunk.css",
-    "main.js": "/app-calendar-react/static/js/main.06635f49.chunk.js",
-    "main.js.map": "/app-calendar-react/static/js/main.06635f49.chunk.js.map",
+    "main.css": "/app-calendar-react/static/css/main.598809aa.chunk.css",
+    "main.js": "/app-calendar-react/static/js/main.429d6962.chunk.js",
+    "main.js.map": "/app-calendar-react/static/js/main.429d6962.chunk.js.map",
     "runtime-main.js": "/app-calendar-react/static/js/runtime-main.d5d1c486.js",
     "runtime-main.js.map": "/app-calendar-react/static/js/runtime-main.d5d1c486.js.map",
     "static/js/2.c90ac4d0.chunk.js": "/app-calendar-react/static/js/2.c90ac4d0.chunk.js",
     "static/js/2.c90ac4d0.chunk.js.map": "/app-calendar-react/static/js/2.c90ac4d0.chunk.js.map",
     "index.html": "/app-calendar-react/index.html",
-    "precache-manifest.fb9cab5e5b3609f7e6776cb94f5d9554.js": "/app-calendar-react/precache-manifest.fb9cab5e5b3609f7e6776cb94f5d9554.js",
+    "precache-manifest.c05d90656eb8e312774459489ae88e7e.js": "/app-calendar-react/precache-manifest.c05d90656eb8e312774459489ae88e7e.js",
     "service-worker.js": "/app-calendar-react/service-worker.js",
-    "static/css/main.5c688381.chunk.css.map": "/app-calendar-react/static/css/main.5c688381.chunk.css.map",
+    "static/css/main.598809aa.chunk.css.map": "/app-calendar-react/static/css/main.598809aa.chunk.css.map",
     "static/js/2.c90ac4d0.chunk.js.LICENSE.txt": "/app-calendar-react/static/js/2.c90ac4d0.chunk.js.LICENSE.txt",
     "static/media/Artboard.jpg": "/app-calendar-react/static/media/Artboard.37a75b54.jpg",
     "static/media/Logo_original_RGB.png": "/app-calendar-react/static/media/Logo_original_RGB.89fca7ad.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.d5d1c486.js",
     "static/js/2.c90ac4d0.chunk.js",
-    "static/css/main.5c688381.chunk.css",
-    "static/js/main.06635f49.chunk.js"
+    "static/css/main.598809aa.chunk.css",
+    "static/js/main.429d6962.chunk.js"
   ]
 }
