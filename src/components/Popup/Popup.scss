@@ -10,7 +10,7 @@
     height: 140px;
     background-color: #fbfbfb;
     z-index: 2;
-    transform: translate(-50%,-50%) scale(1);
+    transform: translate(-50%,-50%) scale(0); // change to 0
   }
 
   &__back {
@@ -21,7 +21,7 @@
     height: 100vh;
     background: rgba(0,0,0,0.85);
     z-index: 1;
-    // display: none;
+    display: none;
   }
 
   &__input {

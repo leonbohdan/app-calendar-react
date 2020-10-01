@@ -28,7 +28,7 @@ export const Calendar = () => {
   const day = () => {
     return chosenDate.getDate();
   };
-  // console.log(year(), month(), day());
+  console.log(year(), month(), day(), chosenDate.getDay());
 
   const monthData = calendar.getMonthData(year(), month());
 
@@ -58,7 +58,7 @@ export const Calendar = () => {
   // };
 
   const handleDayClick = (date) => {
-    // const action = actions.setOnChange(date);
+    console.log(date);
     dispatch(actions.setSelectedDate(date));
     dispatch(actions.setOnChange(date));
   };
@@ -113,7 +113,7 @@ export const Calendar = () => {
                     })}
                     onClick={() => handleDayClick(date)}
                   >
-                    {date.getDate()}
+                    {(`0${date.getDate()}`).slice(-2)}
                   </td>
                 ) : (
                   <td key={i} />
