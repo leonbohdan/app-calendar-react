@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/app-calendar-react/static/css/main.0be9784c.chunk.css",
-    "main.js": "/app-calendar-react/static/js/main.cff84858.chunk.js",
-    "main.js.map": "/app-calendar-react/static/js/main.cff84858.chunk.js.map",
+    "main.css": "/app-calendar-react/static/css/main.53e7ea74.chunk.css",
+    "main.js": "/app-calendar-react/static/js/main.691e9729.chunk.js",
+    "main.js.map": "/app-calendar-react/static/js/main.691e9729.chunk.js.map",
     "runtime-main.js": "/app-calendar-react/static/js/runtime-main.d5d1c486.js",
     "runtime-main.js.map": "/app-calendar-react/static/js/runtime-main.d5d1c486.js.map",
-    "static/js/2.21e7b907.chunk.js": "/app-calendar-react/static/js/2.21e7b907.chunk.js",
-    "static/js/2.21e7b907.chunk.js.map": "/app-calendar-react/static/js/2.21e7b907.chunk.js.map",
+    "static/js/2.fc0a5bff.chunk.js": "/app-calendar-react/static/js/2.fc0a5bff.chunk.js",
+    "static/js/2.fc0a5bff.chunk.js.map": "/app-calendar-react/static/js/2.fc0a5bff.chunk.js.map",
     "index.html": "/app-calendar-react/index.html",
-    "precache-manifest.03b46d0a43a77aa067a43f0a7ad773eb.js": "/app-calendar-react/precache-manifest.03b46d0a43a77aa067a43f0a7ad773eb.js",
+    "precache-manifest.c14ec7c0494914faf7296bc43ce759d3.js": "/app-calendar-react/precache-manifest.c14ec7c0494914faf7296bc43ce759d3.js",
     "service-worker.js": "/app-calendar-react/service-worker.js",
-    "static/css/main.0be9784c.chunk.css.map": "/app-calendar-react/static/css/main.0be9784c.chunk.css.map",
-    "static/js/2.21e7b907.chunk.js.LICENSE.txt": "/app-calendar-react/static/js/2.21e7b907.chunk.js.LICENSE.txt",
+    "static/css/main.53e7ea74.chunk.css.map": "/app-calendar-react/static/css/main.53e7ea74.chunk.css.map",
+    "static/js/2.fc0a5bff.chunk.js.LICENSE.txt": "/app-calendar-react/static/js/2.fc0a5bff.chunk.js.LICENSE.txt",
     "static/media/Artboard.jpg": "/app-calendar-react/static/media/Artboard.37a75b54.jpg",
     "static/media/Logo_original_RGB.png": "/app-calendar-react/static/media/Logo_original_RGB.89fca7ad.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d5d1c486.js",
-    "static/js/2.21e7b907.chunk.js",
-    "static/css/main.0be9784c.chunk.css",
-    "static/js/main.cff84858.chunk.js"
+    "static/js/2.fc0a5bff.chunk.js",
+    "static/css/main.53e7ea74.chunk.css",
+    "static/js/main.691e9729.chunk.js"
   ]
 }
