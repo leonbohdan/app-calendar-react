@@ -70,7 +70,7 @@ export const Calendar = () => {
       <header>
         <button onClick={handlePrevMonthButtonClick}>&#8249;</button>
 
-        <span className='heading'>
+        <span className="heading">
           {monthNames[month()]} {year()}
         </span>
 
@@ -112,10 +112,11 @@ export const Calendar = () => {
                     className={CN("day", {
                       today: calendar.areEqual(date, currentDate),
                       selected: calendar.areEqual(date, selectedDate),
+                      other: !date,
                     })}
                     onClick={() => handleDayClick(date)}
                   >
-                    {(`0${date.getDate()}`).slice(-2)}
+                    {`0${date.getDate()}`.slice(-2)}
                   </td>
                 ) : (
                   <td key={i} />
@@ -123,13 +124,15 @@ export const Calendar = () => {
               )}
             </tr>
           ))}
+        </tbody>
 
+        {/* <thead> */}
           <tr>
             {weekDayNames.map((name, i) => (
               <th key={i}>{name}</th>
             ))}
           </tr>
-        </tbody>
+        {/* </thead> */}
       </table>
     </div>
   );
