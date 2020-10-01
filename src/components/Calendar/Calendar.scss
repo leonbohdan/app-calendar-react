@@ -1,12 +1,17 @@
 .calendar {
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   margin-top: 150px;
+
+  // border: 1px solid white;
+  max-width: 500px;
 }
 
 .calendar header {
-  width: 20vw;
-  left: 50%;
-  transform: translate(50%, 10%);
+  // width: 20vw;
+  // left: 50%;
+  // transform: translate(50%, 10%);
   display: flex;
   justify-content: space-between;
   margin-bottom: 8px;

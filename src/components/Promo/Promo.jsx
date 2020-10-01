@@ -22,8 +22,10 @@ export const Promo = () => {
           </p>
         </div>
 
-        <div class="promo__calendar">
-          <Calendar />
+        <div className="promo__container">
+          <div className="promo__calendar">
+            <Calendar />
+          </div>
         </div>
       </div>
     </>

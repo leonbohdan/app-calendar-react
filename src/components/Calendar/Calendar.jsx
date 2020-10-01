@@ -26,10 +26,10 @@ export const Calendar = () => {
     return chosenDate.getMonth();
   };
 
-  const day = () => {
-    return chosenDate.getDate();
-  };
-  console.log(year(), month(), day(), chosenDate.getDay());
+  // const day = () => {
+  //   return chosenDate.getDate();
+  // };
+  // console.log(year(), month(), day(), chosenDate.getDay());
 
   const monthData = calendar.getMonthData(year(), month());
 
