@@ -1,11 +1,13 @@
 import React from 'react';
 import './Promo.scss';
 import { Calendar } from '../../components/Calendar';
+import { Popup } from '../../components/Popup';
 import promoImg from '../../images/Artboard.jpg';
 
 export const Promo = () => {
   return (
     <>
+      <Popup />
       <div className="promo d-flex">
         <div className="promo__left">
           {/* <img className="img" src={promoImg} alt="Artboard" /> */}
@@ -20,8 +22,10 @@ export const Promo = () => {
           </p>
         </div>
 
-        <div class="promo__calendar">
-          <Calendar />
+        <div className="promo__container">
+          <div className="promo__calendar">
+            <Calendar />
+          </div>
         </div>
       </div>
     </>
