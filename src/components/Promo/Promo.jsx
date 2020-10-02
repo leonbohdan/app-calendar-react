@@ -2,7 +2,6 @@ import React from 'react';
 import './Promo.scss';
 import { Calendar } from '../../components/Calendar';
 import { Popup } from '../../components/Popup';
-import promoImg from '../../images/Artboard.jpg';
 
 export const Promo = () => {
   return (
@@ -10,7 +9,6 @@ export const Promo = () => {
       <Popup />
       <div className="promo d-flex">
         <div className="promo__left">
-          {/* <img className="img" src={promoImg} alt="Artboard" /> */}
           <h1 className="promo__title">
             Choose the day
             <br /> for the meeting
