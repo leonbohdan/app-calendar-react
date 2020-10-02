@@ -80,16 +80,25 @@ export function getMonthData(year, month) {
   const monthStartsOn = date.getDay();
   let prevLastDay = new Date(date.getFullYear(), date.getMonth(), 0).getDate();
   let begin = prevLastDay - monthStartsOn + 1;
+  let nextMonthDay = 1;
+  let lastMonthDay = -monthStartsOn + 1;
   let day = 1;
 
   for (let i = 0; i < (daysInMonth + monthStartsOn) / DAYS_IN_WEEK; i++) {
     result[i] = [];
 
     for (let j = 0; j < DAYS_IN_WEEK; j++) {
-      if ((i === 0 && j < monthStartsOn) || day > daysInMonth) {
-        result[i][j] = new Date(year, month - 1, begin++);
+      // if ((i === 0 && j < monthStartsOn) || day > daysInMonth) {
+      //   result[i][j] = new Date(year, month - 1, begin++);
+      // } else {
+      //   result[i][j] = new Date(year, month, day++);
+      // }
+      if (i === 0 && j < monthStartsOn) {
+        result[i][j] = [false, new Date(year, month, lastMonthDay++)];
+      } else if (day > daysInMonth) {
+        result[i][j] = [false, new Date(year, month + 2, nextMonthDay++)];
       } else {
-        result[i][j] = new Date(year, month, day++);
+        result[i][j] = [true, new Date(year, month, day++)];
       }
     }
   }
