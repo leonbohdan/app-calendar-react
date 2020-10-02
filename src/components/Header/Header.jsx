@@ -12,8 +12,6 @@ export const Header = () => {
           <Link className="navbar-brand" to="/">
             <img
               src={logo}
-              width="145"
-              height="40"
               alt="WeRdevs"
               title="Home"
             />

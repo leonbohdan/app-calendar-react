@@ -4,7 +4,7 @@ import './About.scss';
 export const About = () => {
   return (
     <div className="About">
-      <div className="About__container container">
+      <div className="About__container">
         <h1 className="About__heading">Lorem ipsum creation timelines</h1>
         <p className="About__paragraph">
           So how did the classical Latin become so incoherent? According to

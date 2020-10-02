@@ -10,7 +10,7 @@
     height: 140px;
     background-color: #fbfbfb;
     z-index: 2;
-    transform: translate(-50%,-50%) scale(0); // change to 0
+    transform: translate(-50%,-50%) scale(0);
   }
 
   &__back {
@@ -86,5 +86,9 @@
   &.active &__form {
     transition: all 300ms ease-in-out;
     transform: translate(-50%,-50%) scale(1);
+
+    @media(max-width: 600px){
+      transform: translate(-50%,-50%) scale(0.5);
+    }
   }
 }

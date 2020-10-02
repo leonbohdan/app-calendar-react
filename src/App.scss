@@ -1,7 +1,6 @@
 .main {
   &__container {
     margin: 0 auto;
-    // max-width: 1600px;
   }
 }
 
@@ -10,33 +9,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Rubik;
-  // width: 100vw;
-  // height: 100vh;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
 }
 
-button, select {
-  height: 2em;
-  font-size: 1rem;
-  color: #fff;
-  background-color: rgba(39, 40, 41, 0);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:focus, select:focus {
+button:focus {
   outline: none;
-}
-
-button {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: .25em .3em;
-  margin: 0 .3em
 }
