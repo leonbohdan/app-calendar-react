@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/app-calendar-react/static/css/main.d95de094.chunk.css",
-    "main.js": "/app-calendar-react/static/js/main.e2d27926.chunk.js",
-    "main.js.map": "/app-calendar-react/static/js/main.e2d27926.chunk.js.map",
+    "main.css": "/app-calendar-react/static/css/main.18da7b58.chunk.css",
+    "main.js": "/app-calendar-react/static/js/main.7790dfe6.chunk.js",
+    "main.js.map": "/app-calendar-react/static/js/main.7790dfe6.chunk.js.map",
     "runtime-main.js": "/app-calendar-react/static/js/runtime-main.d5d1c486.js",
     "runtime-main.js.map": "/app-calendar-react/static/js/runtime-main.d5d1c486.js.map",
     "static/js/2.fc0a5bff.chunk.js": "/app-calendar-react/static/js/2.fc0a5bff.chunk.js",
     "static/js/2.fc0a5bff.chunk.js.map": "/app-calendar-react/static/js/2.fc0a5bff.chunk.js.map",
     "index.html": "/app-calendar-react/index.html",
-    "precache-manifest.0a464f8b9d3fa1ecc167bc70ee15f6c6.js": "/app-calendar-react/precache-manifest.0a464f8b9d3fa1ecc167bc70ee15f6c6.js",
+    "precache-manifest.da5b48ed3b7cf2646f07a1ca7e95c025.js": "/app-calendar-react/precache-manifest.da5b48ed3b7cf2646f07a1ca7e95c025.js",
     "service-worker.js": "/app-calendar-react/service-worker.js",
-    "static/css/main.d95de094.chunk.css.map": "/app-calendar-react/static/css/main.d95de094.chunk.css.map",
+    "static/css/main.18da7b58.chunk.css.map": "/app-calendar-react/static/css/main.18da7b58.chunk.css.map",
     "static/js/2.fc0a5bff.chunk.js.LICENSE.txt": "/app-calendar-react/static/js/2.fc0a5bff.chunk.js.LICENSE.txt",
     "static/media/Promo.scss": "/app-calendar-react/static/media/Artboard.37a75b54.jpg",
     "static/media/Logo_original_RGB.png": "/app-calendar-react/static/media/Logo_original_RGB.89fca7ad.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.d5d1c486.js",
     "static/js/2.fc0a5bff.chunk.js",
-    "static/css/main.d95de094.chunk.css",
-    "static/js/main.e2d27926.chunk.js"
+    "static/css/main.18da7b58.chunk.css",
+    "static/js/main.7790dfe6.chunk.js"
   ]
 }
