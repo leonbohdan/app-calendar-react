@@ -2,7 +2,6 @@ import { createStore } from 'redux';
 
 const initialState = {
   currentDate: new Date(),
-  years: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
   monthNames: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
   weekDayNames: ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
   daysInWeek: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
@@ -13,7 +12,6 @@ const initialState = {
 
 export const selectors = {
   getCurrentDate: state => state.currentDate,
-  getYears: state => state.years,
   getMonthNames: state => state.monthNames,
   getWeekDayNames: state => state.weekDayNames,
   getSelectedDate: state => state.selectedDate,

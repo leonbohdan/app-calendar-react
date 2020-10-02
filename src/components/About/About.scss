@@ -16,11 +16,19 @@
     @media(max-width: 1200px){
       font: normal normal bold 30px/36px Rubik;
     }
+
+    @media(max-width: 480px){
+      font: normal normal bold 20px/30px Rubik;
+    }
   }
 
   &__paragraph {
     font: normal normal 300 20px/32px Rubik;
     letter-spacing: 0.4px;
     color: #3D3D3D;
+
+    @media(max-width: 480px){
+      font: normal normal 300 15px/25px Rubik;
+    }
   }
 }

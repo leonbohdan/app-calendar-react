@@ -1,138 +1,23 @@
-// .calendar {
-//   display: flex;
-//   flex-direction: column;
-//   box-sizing: border-box;
-//   margin-top: 150px;
-
-//   // border: 1px solid white;
-//   max-width: 500px;
-// }
-
-// .calendar header {
-//   // width: 20vw;
-//   // left: 50%;
-//   // transform: translate(50%, 10%);
-//   display: flex;
-//   justify-content: space-between;
-//   margin-bottom: 8px;
-
-//   border-bottom: 1px solid #FFFFFF;
-// }
-
-// .calendar header span {
-//   display: flex;
-//   align-items: center;
-// }
-
-// .calendar header button,
-// .calendar header select {
-//   margin: 0 4px;
-// }
-
-// .calendar table {
-//   table-layout: fixed;
-//   border-collapse: separate;
-//   border-spacing: 0;
-//   margin: auto;
-//   margin-top: 20px;
-// }
-
-// .calendar th {
-//   vertical-align: middle;
-//   text-align: center;
-//   height: 36px;
-//   color: #fff;
-//   font: normal normal medium 20px/24px Rubik;
-//   letter-spacing: 0px;
-
-//   border-top: 1px solid #FFFFFF;
-//   border-bottom: 1px solid #FFFFFF;
-// }
-
-// .calendar .day {
-//   position: relative;
-//   padding: 6px 10px;
-//   vertical-align: middle;
-//   text-align: center;
-//   border: 2px solid transparent;
-//   color: #DFDFDF;
-
-//   transition: background-color 0.4s ease-in-out;
-// }
-
-// .calendar .day:hover {
-//   cursor: pointer;
-// }
-
-// .calendar .day:hover::after {
-//   position: absolute;
-//   left: 50%;
-//   transform: translate(-50%, -10%);
-//   content: '';
-//   display: block;
-//   height: 5px;
-//   width: 5px;
-//   background-color: #fdd000;
-//   border-radius: 10px;
-// }
-
-// .calendar .day.selected::after {
-//   position: absolute;
-//   left: 50%;
-//   transform: translate(-50%, -10%);
-//   content: '';
-//   display: block;
-//   height: 6px;
-//   width: 6px;
-//   background-color: #fdd000;
-//   border-radius: 10px;
-// }
-
-// .calendar .day.today {
-//   background-color: #FDD000;
-//   color: white;
-// }
-
-// .other {
-//   color: grey;
-// }
-// // .calendar .day.other {
-//   // background-color: #FDD000;
-//   // color: white;
-// // }
-
-// .calendar .day.today:hover {
-//   background-color: #FDD000;
-// }
-
-// .calendar .day.today.selected {
-//   border: 2px solid lightgray;
-// }
-
-// .heading {
-//   color: white;
-//   text-align: center;
-//   font: normal normal medium 19px/23px Rubik;
-//   letter-spacing: 0px;
-//   color: #DFDFDF;
-//   text-transform: uppercase;
-// }
-
-// / / / / / / / / / / / / / / / / / / 
-
 .calendar {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
-  // margin-left:32px;
   padding: 10% 5%;
- 
-  height: 75vh;
+  height: 65vh;
   min-width: 500px;
   background-color: #272829;
   color: #DFDFDF;
+
+  @media(max-width: 2000px){
+    margin-top: 50px;
+    min-width: 400px;
+  }
+
+  @media(max-width: 480px){
+    padding: 10% 5%;
+    min-width: 200px;
+  }
  
   &__header{
     display: flex;
@@ -161,8 +46,8 @@
   }
 
   &__table{
-    display:block;
-    width:100%;
+    display: block;
+    width: 100%;
   }
 
   &__tbody{
@@ -178,31 +63,39 @@
   &__thead tr{
     display: flex;
     justify-content: space-between;
-    // display: grid;
-    // grid-template-columns: repeat(7, 1fr);
     text-align: center;
     font: normal normal 200 20px Rubik;
-    padding: 16px 2px;
+    padding: 16px 3px;
     margin-top: 38px;
     border-bottom: 1px solid #DFDFDF;
     border-top: 1px solid #DFDFDF;
+
+    @media(max-width: 1200px){
+      padding: 16px 6px;
+    }
+
+    @media(max-width: 480px){
+      font: normal normal 200 15px Rubik;
+    }
   }
 
   &__tbody tr {
-    
     display: flex;
     justify-content: space-between;
-    // display: grid;
-    // grid-template-columns: repeat(7, auto);
     font-size: 17px;
     font-weight: 500;
-    // margin: 0 -10px;
-    // min-height: 25px;
+
+    @media(max-width: 1200px){
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+    }
+
+    @media(max-width: 480px){
+      font: normal normal 400 15px Rubik;
+    }
   }
 
   &__day {
-    // height: 25px;
-    // width: 10px;
     position: relative;
     display: block;
     padding: 12px;
@@ -256,17 +149,5 @@
       background-color: #fdd000;
       border-radius: 10px;
     }
-  }
-
-  @media(max-width: 1100px){
-    // height: 50%;
-    // min-width: 100%;
-    // padding:10% 5%;
-    // background-color: #272829;
-  }
-
-  @media(max-width:900px){
-    // padding: 10% 5%;
-    // min-width: 300px;
   }
 }

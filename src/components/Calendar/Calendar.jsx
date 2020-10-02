@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { actions, selectors } from "../../redux/store";
-import CN from "classnames";
-import "./Calendar.scss";
-import * as calendar from "./utils";
+import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { actions, selectors } from '../../redux/store';
+import CN from 'classnames';
+import './Calendar.scss';
+import * as calendar from './utils';
 
 export const Calendar = () => {
   const dispatch = useDispatch();

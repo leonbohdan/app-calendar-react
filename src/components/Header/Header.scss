@@ -1,13 +1,15 @@
-.Header {
-  &__container {
-    padding: 0 110px;
-  }
-}
-
 .Header img {
+  width: 145px;
+  height: 40px;
+
   @media(max-width: 1200px){
     width: 90px;
     height: 30px;
+  }
+
+  @media(max-width: 360px){
+    width: 70px;
+    height: 20px;
   }
 }
 
@@ -21,6 +23,14 @@
 
   @media(max-width: 1200px){
     height: 90px;
+  }
+
+  @media(max-width: 560px){
+    padding: 0 10px;
+  }
+
+  @media(max-width: 360px){
+    height: 60px;
   }
 }
 
@@ -37,6 +47,10 @@
 
   @media(max-width: 1200px){
     font: normal normal 500 20px/25px Rubik;
+  }
+
+  @media(max-width: 360px){
+    font: normal normal 500 15px/20px Rubik;
   }
 }
 
