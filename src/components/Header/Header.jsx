@@ -17,15 +17,15 @@ export const Header = () => {
             />
           </Link>
 
-          <div class="" id="">
-            <ul class="nav">
-              <li class="nav-item">
+          <div className="" id="">
+            <ul className="nav">
+              <li className="nav-item">
                 <NavLink className="nav-link" to="/" exact title="Home">
                   Home
                 </NavLink>
               </li>
 
-              <li class="nav-item">
+              <li className="nav-item">
                 <NavLink className="nav-link" to="/about" title="About Us">
                   About Us
                 </NavLink>

@@ -13,24 +13,24 @@ export const Calendar = () => {
   const selectedDate = useSelector(selectors.getSelectedDate);
   const [chosenDate, setChosenDate] = useState(currentDate);
 
-  const year = () => {
+  const getYear = () => {
     return chosenDate.getFullYear();
   };
 
-  const month = () => {
+  const getMonth = () => {
     return chosenDate.getMonth();
   };
 
-  const monthData = calendar.getMonthData(year(), month());
+  const monthData = calendar.getMonthData(getYear(), getMonth());
 
   const handlePrevMonthButtonClick = () => {
-    const date = new Date(year(), month() - 1);
+    const date = new Date(getYear(), getMonth() - 1);
 
     setChosenDate(date);
   };
 
   const handleNextMonthButtonClick = () => {
-    const date = new Date(year(), month() + 1);
+    const date = new Date(getYear(), getMonth() + 1);
     console.log(date);
     setChosenDate(date);
   };
@@ -53,7 +53,7 @@ export const Calendar = () => {
         </button>
 
         <span className="calendar__heading">
-          {monthNames[month()]} {year()}
+          {monthNames[getMonth()]} {getYear()}
         </span>
 
         <button
@@ -96,7 +96,7 @@ export const Calendar = () => {
         <thead className="calendar__thead">
           <tr>
             {weekDayNames.map((name, i) => (
-              <th key={name}>{name}</th>
+              <th key={name + i}>{name}</th>
             ))}
           </tr>
         </thead>

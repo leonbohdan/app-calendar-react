@@ -10,7 +10,6 @@ export const Popup = () => {
   const selectedDate = useSelector(selectors.getSelectedDate);
   const monthNames = useSelector(selectors.getMonthNames);
   const popupShow = useSelector(selectors.getPopupShow);
-  console.log(daysInWeek, selectedDate, monthNames, popupShow);
 
   return (
     <section className={CN({ popup: true, active: popupShow })}>

@@ -9,7 +9,7 @@ export const App = () => {
   return (
     <>
       <Header />
-      <div class="main">
+      <div className="main">
         <Switch>
           <Route path="/" exact component={Promo}></Route>
           <Route path="/about" component={About}></Route>

@@ -56,7 +56,7 @@ export function getMonthData(year, month) {
   const date = new Date(year, month);
   const daysInMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
   const monthStartsOn = date.getDay();
-  let prevLastDay = new Date(date.getFullYear(), date.getMonth(), 0).getDate();
+  // let prevLastDay = new Date(date.getFullYear(), date.getMonth(), 0).getDate();
   let nextMonthDay = 1;
   let lastMonthDay = -monthStartsOn + 1;
   let day = 1;
